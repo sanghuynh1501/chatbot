@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -20,12 +21,37 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.chat-box {
+  height: 800px;
+  width: 800px;
+  border-radius: 2%;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.chat-content {
+  border-radius: 2%;
+  height: 90%;
+  width: 100%;
+  background-color: white;
+}
+
+.chat-input {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid gray;
 }
 
 @keyframes App-logo-spin {
